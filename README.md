@@ -1,9 +1,9 @@
 # Project
 Uranos Faqiri's final project
-Travel Planner Project ✈️🌍
+University Web
 Project Description
 
-The Travel Planner is a web-based application that helps users plan their trips easily. Users can explore destinations, organize travel plans, and manage their travel information in a simple and user-friendly interface.
+You are able to learn more about the University and change your future with the world's biggest Univerity.
 
 This project was developed as part of a university assignment to practice web development skills using HTML, CSS, and basic JavaScript.
 
