@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html - Copy.html">COURSE</a></li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+            
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!---contact Us-->
+
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420606.613863621!2d68.8680674607855!3d34.
+        553829572845316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!
+        2sKabul%2C%20Afghanistan!5e0!3m2!1sen!2s!4v1755970148680!5m2!1sen!2s" width="600" height="450" style="border:0;"
+         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    </section>
+
+    <section class="content-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <span>
+                    <h5>XYZ Road, ABC Building</h5>
+                    <p>Shahr -e- now, Kabul, Afghanistan</p>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                    <h5>+93 0798996754</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                    <h5>info@easycodeiara.com</h5>
+                    <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                
+        <form action="">
+            <input type="text" placeholder="Enter Your name" required>
+            <input type="email" placeholder="Enter Your Email" required>
+            <input type="text" placeholder="Enter Your Subject" required>
+            <textarea rowa="8" placeholder="Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+        </form>
+            </div>
+        </div>
+
+
+    </section>
+
+    
+
+    <section class="footer">
+        <h4>About US</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Debitis, modi. Minus, numquam?<br>
+             Dolores maiores ullam vel odit corporis, saepe at,
+              iure repellat culpa rerum dolor?</p>
+
+    </section>
+
+
+
+
+    <!---JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+            function hideMenu(){
+            navLinks.style.right = "200px";
+        }
+    </script>
+</body>
+</html>
